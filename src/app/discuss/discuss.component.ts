@@ -26,7 +26,12 @@ export class DiscussComponent implements OnInit {
     this.discuss.comment=disForm.comment;
     // console.log(this.comments.email);
     console.log(this.discuss.comment);
-    this.service.addDis(this.discuss).subscribe();
+    if(Object.keys(this.discuss.comment).length===0){
+      alert("Type Text!");
+    }else{
+      this.service.addDis(this.discuss).subscribe();
+      alert("Comment Added");
+    }
   }
   showDis(){
     this.service.showDis().subscribe((result)=>{this.all_discussions=result;});

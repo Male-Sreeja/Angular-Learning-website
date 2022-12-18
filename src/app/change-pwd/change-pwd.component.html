@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<div class="bg-img">
+  <!-- <a routerLink="/logi"><img class="b_btn" src="assets\images\b_nav.png"/></a> -->
+  <!-- <img class="logo" src="assets\images\logo2.jpg"/>
+    <img class="sign_pic" src="assets\images\spic.jpg"/> -->
+  <div class="container" style="width:500px">
+    <!-- <form method="post" action="/addname"> -->
+    <form #pwdForm="ngForm" (ngSubmit)="newPwd(pwdForm.value)">
+      <!-- class="container"> -->
+      <h1>Reset Password</h1>
+        <label>Email</label><br>
+        <input type="text" ngModel name="email" #email=ngModel placeholder="Enter your email..." class="form-control" required>
+        <label>Password</label><br>
+        <input type="password" ngModel name="pwd" #password=ngModel placeholder="Enter password..." class="form-control" required>
+        <label>Confirm Password</label><br>
+        <input type="password" ngModel name="c_pwd" #c_password=ngModel placeholder="Confirm password..." class="form-control" required>
+        <button type="submit" class="btn" >Update</button><br>
+        <!-- <button type="submit" class="btn" (click)='checkPwd()'> Register </button> -->
+    </form>
+  </div>
+  </div>

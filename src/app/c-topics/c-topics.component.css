@@ -3,7 +3,7 @@ body,html{
 }
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #2F4F4f;
   }
   
   .navbar a {
@@ -97,4 +97,12 @@ body,html{
     position: relative;
     /* top:4750px;
     padding-left:50px; */
+}
+.b_btn {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  width:20px;
+  height: 20px;
+  border: 2px solid #555;
 }

@@ -1,6 +1,6 @@
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #2F4F4f;
   }
   
   .navbar a {
@@ -77,5 +77,13 @@
       display: inline-block;
       font-size: 16px;
       cursor: pointer;
+    }
+    .b_btn {
+      position: absolute;
+      top: 55px;
+      left: 10px;
+      width:30px;
+      height: 30px;
+      border: 2px solid #555;
     }
  

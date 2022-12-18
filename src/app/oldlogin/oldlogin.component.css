@@ -8,7 +8,7 @@ body, html {
   
   .bg-img {
     /* The image used */
-    background-image: url("src\assets\images\loginwp.png");
+    background-image: url("src\assets\images\wp_ls.png");
   
     /* Control the height of the image */
     height: 550px;
@@ -23,12 +23,23 @@ body, html {
   /* Add styles to the form container */
   .container {
     position: absolute;
-    right: 0;
+    top: 40px;
+    right: 50px;
     margin: 20px;
     max-width: 300px;
     padding: 16px;
     background-color: rgb(255, 255, 255);
-    background-image: url("src\assets\images\login.jpg");
+    /* background-image: url("src\assets\images\login.jpg"); */
+    /* border:2px solid black; */
+    outline: #B2BEB5 solid 5px;
+  }
+  .b_btn {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width:40px;
+    height: 40px;
+    border: 2px solid #555;
   }
   
   /* Full-width input fields */
@@ -73,4 +84,18 @@ body, html {
     height:50px;
     top:10px;
     left:128px;
+  }
+  .f_pwd{
+    position:relative;
+    width:1000px;
+    height:50px;
+    bottom:-5px;
+    left:80px;
+  }
+  .back{
+    position:relative;
+    width:1000px;
+    height:50px;
+    bottom:-5px;
+    left:10px;
   }

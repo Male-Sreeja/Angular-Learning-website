@@ -1,6 +1,5 @@
-<div class="navbar">
+<!-- <div class="navbar">
     <a routerLink="/homepage">Dashboard</a>
-    <!-- <a routerLink="/profile">Profile</a> -->
     <div class="dropdown">
       <button class="dropbtn">Courses 
         <i class="fa fa-caret-down"></i>
@@ -15,6 +14,9 @@
     <a routerLink="/mainpage" style="right:0">Logout</a>
   </div>
   </div>
+  <div class="container">
+    <a routerLink="/interview"><img class="b_btn" src="assets\images\b_nav.png"/></a>
+  </div><br>
 <h1>Practice Test</h1>
 
 <form method="POST" class="is-not-results">
@@ -568,4 +570,75 @@
     <div id="message">
 		<h1><b>Your Score:</b> <span class="score" data-question-count="15"></span></h1>
 	</div>
-</form>
+</form> -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+<div class="container mt-5">
+    <div class="card">
+        <div class="d-flex justify-content-between p-3">
+            <div class="quiz-header">
+                <div class="container">
+                    <a routerLink="/interview"><img class="b_btn" src="assets\images\b_nav.png"/></a>
+                  </div>
+                <h4 style="font-family: cursive;">Quiz!</h4>
+                <!-- <span style="font-style: italic;">Welcome {{name}}</span> -->
+            </div>
+        </div>
+
+        <ng-container *ngIf="!isQuizCompleted">
+            <div id="main">
+                <div class="score">
+                    <h5>{{points}} Points</h5>
+                </div>
+                <div class="question-remain">
+                    <span style="font-style: italic;">Question {{currentQuestion+1}} of {{questionList.length}}</span>
+                </div>
+                <div class="timer">
+                    <h5 style="color:white;background-color: red;">{{counter}} sec ⏱</h5>
+                </div>
+            </div>
+            <div class="progress mb-3">
+                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" [ngStyle]="{'width':progress+'%'}" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="question">
+                <div class="card">
+                    <h3>{{questionList[currentQuestion]?.questionText}}</h3>
+                </div>
+            </div>
+            <div class="options">
+                <ol *ngFor="let option of questionList[currentQuestion]?.options">
+                    <li (click)="answer(currentQuestion+1,option)">
+                        <div appChangeBg [isCorrect]="option.correct" class="card">
+                            {{option.text}}
+                        </div>
+                    </li>
+
+                </ol>
+            </div>
+            <div class="d-flex justify-content-between">
+                <button [disabled]="currentQuestion===0" class="button button5" (click)="previousQuestion()">&#8249;</button>
+                <button class="btn" type="reset" (click)="resetQuiz()"><i class="fa fa-refresh"></i></button>
+                <button [disabled]="currentQuestion===9" class="button button5" (click)="nextQuestion()">&#8250;</button>
+            </div>
+        </ng-container>
+
+        <ng-container *ngIf="isQuizCompleted">
+            <div class="row d-flex justify-content-between">
+                <img style="width: 10%; right:2px;" class="img-fluid col-sm-12 mx-auto" src="https://icon-library.com/images/celebration-icon-png/celebration-icon-png-7.jpg" alt="">
+                <div class="result text-center col-md-6 col-sm-12">
+                    <h3>Congratulations!! <br>You have completed the quiz. <br>Below is your result:</h3>
+                    <p>Total Question Attempted : {{questionList.length}} </p>
+                    <p>Total Correct Answered : {{correctAnswer}} </p>
+                    <p>Total Wrong Answered : {{inCorrectAnswer}} </p>
+                    <p>Your Score : {{points}} Points </p>
+                </div>
+            </div>
+        </ng-container>
+
+    </div>
+    <br><br><br><br><br><br>
+</div>
+</body>

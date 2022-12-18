@@ -29,6 +29,17 @@ import { Lr2Component } from './lr2/lr2.component';
 import { CodingComponent } from './coding/coding.component';
 import { QuizComponent } from './quiz/quiz.component';
 import { DiscussComponent } from './discuss/discuss.component';
+import { ForgetPwdComponent } from './forget-pwd/forget-pwd.component';
+import { ChangePwdComponent } from './change-pwd/change-pwd.component';
+import { AddiDetailsComponent } from './addi-details/addi-details.component';
+import { JavaComponent } from './java/java.component';
+import { JavaIntroComponent } from './java-intro/java-intro.component';
+import { JavaLoopsComponent } from './java-loops/java-loops.component';
+import { HtmlComponent } from './html/html.component';
+import { HtmlIntroComponent } from './html-intro/html-intro.component';
+import { HtmlEleComponent } from './html-ele/html-ele.component';
+import { HtmlMoreComponent } from './html-more/html-more.component';
+import { WelcomeQuizComponent } from './welcome-quiz/welcome-quiz.component';
 const routes: Routes = [
   {path:"",component:MainpageComponent},
   {path:'login',component: OldloginComponent },
@@ -58,7 +69,18 @@ const routes: Routes = [
   {path:"LR2",component:Lr2Component},
   {path:"coding",component:CodingComponent},
   {path:"quiz",component:QuizComponent},
-  {path:"discuss",component:DiscussComponent}
+  {path:"discuss",component:DiscussComponent},
+  {path:"forget_pwd",component:ForgetPwdComponent},
+  {path:"changePwd",component:ChangePwdComponent},
+  {path:"addi_details",component:AddiDetailsComponent},
+  {path:"java",component:JavaComponent},
+  {path:"javaintro",component:JavaIntroComponent},
+  {path:"jloops",component:JavaLoopsComponent},
+  {path:"html",component:HtmlComponent},
+  {path:"html-intro",component:HtmlIntroComponent},
+  {path:"html_ele",component:HtmlEleComponent},
+  {path:"html_attr",component:HtmlMoreComponent},
+  {path:"w_quiz",component:WelcomeQuizComponent}
 ];
 
 @NgModule({

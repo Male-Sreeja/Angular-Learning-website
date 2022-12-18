@@ -40,12 +40,12 @@ export class RegisterComponent implements OnInit {
     if(result!=null){
       alert("Email already exists");
     }
-    if(result==null){
+    if(result===null){
       if(registerForm.password===registerForm.c_password){
         this.service.userRegister(this.userdetails).subscribe();
     // this.service.showAllUsers().subscribe();
         alert("Registered");
-        this.router.navigate(['/login']);
+        this.router.navigate(['/addi_details']);
       }else{
         alert("Check Password");
       }

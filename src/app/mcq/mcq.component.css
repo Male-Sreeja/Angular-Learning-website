@@ -72,7 +72,7 @@ h1 {
 }
 
 .tab-wrap [id^="tab"]:checked+label {
-    background: #333;
+    background: #2F4F4f;
     color: #fff;
 }
 
@@ -117,8 +117,8 @@ h1 {
 }
 .navbar {
     overflow: hidden;
-    background-color: #333;
-    width: 1163px;
+    background-color: #2F4F4f;
+    /* width: 1163px; */
   }
   
   .navbar a {
@@ -177,4 +177,12 @@ h1 {
   .logout{
     float:right;
     background-color: rgb(170, 12, 12);
+  }
+  .b_btn {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width:40px;
+    height: 40px;
+    border: 2px solid #555;
   }

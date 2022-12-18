@@ -1,19 +1,26 @@
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
 <div class="navbar">
-    <a routerLink="/homepage">Dashboard</a>
-    <div class="dropdown">
-      <button class="dropbtn">Courses 
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a routerLink='/programLang'>Programming</a>
+  <a routerLink="/homepage">Dashboard</a>
+  <!-- <a routerLink="/profile">Profile</a> -->
+  <div class="dropdown">
+    <button class="dropbtn">Courses 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a routerLink='/programLang'>Programming</a>
       <a routerLink="/interview">Interview preparation</a>
       <a routerLink="/mcq">Aptitude</a>
-      </div>
-    </div> 
-    <div class="logout">
-      <a routerLink="/mainpage">Logout</a>
     </div>
-  </div>
+  </div> 
+  <div class='logout'>
+  <a routerLink="/mainpage">Logout</a>
+</div>
+</div>
+<div class="container">
+  <a routerLink="/programLang"><img class="b_btn" src="assets\images\b_nav.png"/></a>
+</div>
 
   <h1>&nbsp;<b><u>Learn C</u></b></h1>
   <p>&emsp;C is a procedural programming language. It was initially developed by Dennis Ritchie in the year 1972. It was mainly developed as a system<br>&nbsp;
@@ -23,27 +30,40 @@
   and many other languages are mainly based on the C language.</p>
   
 
-  <img  class="image4" src="\assets\images\c_pic.jpg" style = "width:300px"/>
+  <!-- <img  class="image4" src="\assets\images\c_pic.jpg" style = "width:300px"/> -->
   <!--<ol>
     <h2><li><a routerLink = "/homepage">Introduction</a></li></h2>
     <h2><li><a routerLink = "/homepage">Conditional Statements, Loops & Functions</a></li></h2>
     <h2><li><a routerLink = "/homepage">More Topics</a></li></h2>
 </ol>-->
 <br>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
-<div class="w3-card-2 w3-margin" style="max-width:400px;">
-  <header class="w3-container w3-light-blue w3-padding-16">
-    <h3><b>Get Started</b></h3>
-  </header>
-  <ul class="w3-ul">
-    <a routerLink= "/cintro"><li class="w3-light-grey w3-padding-16"><b>Introduction</b><span style="cursor:pointer;" class="w3-right w3-margin-right"></span></li></a>
-    <a routerLink = "/c_loops"><li class="w3-padding-16"><b>Conditional Statements,Loops & Functions</b><span style="cursor:pointer;" class="w3-right w3-margin-right"></span></li></a>
-    <a routerLink = "/c_topics"><li class="w3-light-grey w3-padding-16"><b>More Topics</b><span style="cursor:pointer;" class="w3-right w3-margin-right"></span></li></a>
-    <!-- <a routerLink = "/homepage"><li class="w3-padding-16"><b>Mock Interview</b><span style="cursor:pointer;" class="w3-right w3-margin-right"></span></li></a> -->
-  </ul>
-</div>
+
+  <div class="w3-container" style="width: 300px;">  
+    <div class="w3-bar-block w3-light-grey">
+      <!-- <pdf-viewer [src]="\assets\documents\python_f.pdf#page=2"></pdf-viewer> -->
+      <a href="\assets\documents\C__f.pdf#page=2" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Introduction</a>
+      <a href="\assets\documents\C__f.pdf#page=4" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Syntax</a>
+      <a href="\assets\documents\C__f.pdf#page=5" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Comments</a>
+      <a href="\assets\documents\C__f.pdf#page=6" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Variables</a>
+      <a href="\assets\documents\C__f.pdf#page=7" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Data Types</a>
+      <a href="\assets\documents\C__f.pdf#page=8" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Arrays</a>
+      <a href="\assets\documents\C__f.pdf#page=10" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Pointers</a>
+      <div class="dropdown">
+        <button class="w3-bar-item w3-button w3-hover-blue">User Defined Data types <i class="arrow down"></i></button>
+        <div class="dropdown-content">
+          <a href="\assets\documents\C__f.pdf#page=12" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Introduction</a>
+          <a href="\assets\documents\C__f.pdf#page=13" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Structure</a>
+          <a href="\assets\documents\C__f.pdf#page=15" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Union</a>
+          <a href="\assets\documents\C__f.pdf#page=16" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Enum</a>
+          <a href="\assets\documents\C__f.pdf#page=17" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Type Def</a>
+        </div>
+      </div>
+      
+      <a href="\assets\documents\C__f.pdf#page=18" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Operators</a>
+      <a href="\assets\documents\C__f.pdf#page=22" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Conditional Statements</a>
+      <a href="\assets\documents\C__f.pdf#page=24" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Loops</a>
+    </div>
+  </div>
 <br>
 <form #cForm="ngForm" (ngSubmit)="cAddComment(cForm.value)">
   &nbsp;&nbsp;<label><b>Comments:</b></label><br>

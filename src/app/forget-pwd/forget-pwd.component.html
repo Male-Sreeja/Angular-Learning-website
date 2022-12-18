@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<div class="bg-img">
+  <a routerLink="/login"><img class="b_btn" src="assets\images\b_nav.png"/></a>
+  <div class="container" style="width:500px">
+    <!-- <form method="post" action="/addname"> -->
+    <form #addDetForm="ngForm" (ngSubmit)="addDet(addDetForm.value)">
+      <!-- class="container"> -->
+      <h1>Verify its You</h1>
+      <label>Your Email</label><br>
+        <input type="text" ngModel name="email" #email=ngModel placeholder="Enter your Email" class="form-control" required>
+        <label>Your Birthplace</label><br>
+        <input type="password" ngModel name="bplace" #bplace=ngModel placeholder="Enter your Birthplace" class="form-control" required>
+        <label>Your High School</label><br>
+        <input type="password" ngModel name="hschool" #hschool=ngModel placeholder="Enter your highschool name..." class="form-control" required>
+        <label>Favourite Color</label><br>
+        <input type="password" ngModel name="fcolor" #fcolor=ngModel placeholder="Enter Favourite Color..." class="form-control" required>
+        <br><button type="submit" class="btn btn-primary" >Submit</button><br>
+        <!-- <button type="submit" class="btn" (click)='checkPwd()'> Register </button> -->
+    </form>
+  </div>
+  </div>

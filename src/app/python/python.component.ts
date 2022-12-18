@@ -27,8 +27,13 @@ export class PythonComponent implements OnInit {
     console.log(this.comments.email);
     this.comments.comment=discussionForm.comment;
     // console.log(this.comments.email);
-    console.log(this.comments.comment);
-    this.service.addComment(this.comments).subscribe();
+    console.log("comment"+this.comments.comment);
+    if(Object.keys(this.comments.comment).length===0){
+      alert("Type Text!");
+    }else{
+      this.service.addComment(this.comments).subscribe();
+      alert("Comment Added");
+    }
   }
   showComments(){
     this.service.showComments().subscribe((result)=>{this.all_comments=result;});

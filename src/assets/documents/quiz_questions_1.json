@@ -1,0 +1,183 @@
+{
+    "questions": [{
+            "questionText": "1.Which of the following is not a valid C variable name?",
+            "options": [{
+                    "text": "int number;" 
+                },
+                {
+                    "text": "float rate;"
+                },
+                {
+                    "text": "int variable_count;"
+                },
+                {
+                    "text": "int $main",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questionText": "2.In which of the following formats data is stored in the database management system?",
+            "options": [{
+                    "text": "Image"
+                },
+                {
+                    "text": "Text"
+                },
+                {
+                    "text": "Table",
+                    "correct": true
+                },
+                {
+                    "text": "Graph"    
+                }
+            ]
+            
+        },
+        {
+            "questionText": "3.A _____ set of rules that governs data communication.",
+            "options": [{
+                    "text": "Protocols",
+                    "correct": true
+                },
+                {
+                    "text": "Standards"
+                },
+                {
+                    "text": "RFCs"
+                },
+                {
+                    "text": "Servers"
+                }
+            ],
+            "explanation": "interfaces are typically used to list the properties and methods for an object"
+        },
+        {
+            "questionText": "4.To access the services of the operating system, the interface is provided by the ___________",
+            "options": [{
+                    "text": "Library"
+                },
+                {
+                    "text": "System calls",
+                    "correct": true
+                },
+                {
+                    "text": "Assembly instructions"
+                },
+                {
+                    "text": "API"
+                }
+            ],
+            "explanation": "number[] is another way of writing Array<number> in TypeScript"
+        },
+        {
+            "questionText": "5.Which of the following character is used to give single-line comments in Python?",
+            "options": [{
+                    "text": "//"
+                },
+                {
+                    "text": "#",
+                    "correct": true
+                },
+                {
+                    "text": "!"
+                },
+                {
+                    "text": "/*"
+                }
+            ],
+            "explanation": "a constructor is used by a class to take in parameters"
+        },
+        {
+            "questionText": "6.Which one of the following is not a Java feature?",
+            "options": [{
+                    "text": "Object-oriented"
+                },
+                {
+                    "text": "Use of pointers",
+                    "correct": true
+                },
+                {
+                    "text": "Portable"
+                },
+                {
+                    "text": "Dynamic and Extensible"
+                    
+                }
+            ],
+            "explanation": "async is not used as an access modifier type in TypeScript"
+        },
+        {
+            "questionText": "7.Concurrent access to shared data may result in ____________",
+            "options": [{
+                    "text": "data consistency"
+                },
+                {
+                    "text": "data insecurity"
+                },
+                {
+                    "text": "data inconsistency",
+                    "correct": true
+                },
+                {
+                    "text": "None of the above"
+                }
+            ],
+            "explanation": "the export keyword allows for the information to be transmitted between files"
+        },
+        {
+            "questionText": "8.Expansion of FTP is __________",
+            "options": [{
+                    "text": "Fine Transfer Protocol"
+                },
+                {
+                    "text": "File Transfer protocol",
+                    "correct": true
+                },
+                {
+                    "text": "First Transfer protocol"
+                },
+                {
+                    "text": "Fast Transfer protocol"
+                }
+            ],
+            "explanation": "filter is a method used to conditionally create a new array"
+        },
+        {
+            "questionText": "9.What does pip stand for python?",
+            "options": [{
+                    "text": "Pip Installs Python"
+                },
+                {
+                    "text": "Pip Installs Packages"
+                },
+                {
+                    "text": "Preferred Installer Program",
+                    "correct": true
+                },
+                {
+                    "text": "All of the mentioned"
+                }
+            ],
+            "explanation": "this.propertyName is the way to access a specific property within a class"
+        },
+        {
+            "questionText": "10.Which of the following is not an example of DBMS?",
+            "options": [{
+                    "text": "MySQL"
+                },
+                {
+                    "text": "Microsoft Access"
+                },
+                {
+                    "text": "IBM DB2"
+                },
+                {
+                    "text": "Google",
+                    "correct": true
+                }
+            ],
+            "explanation": "this.propertyName is the way to access a specific property within a class"
+        }
+    ]
+}

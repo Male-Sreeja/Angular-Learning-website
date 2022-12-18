@@ -25,7 +25,12 @@ export class CppComponent implements OnInit {
     this.cpp_comments.comment=cppForm.comment;
     // console.log(this.comments.email);
     console.log(this.cpp_comments.comment);
-    this.service.cppAddComment(this.cpp_comments).subscribe();
+    if(Object.keys(this.cpp_comments.comment).length===0){
+      alert("Type Text!");
+    }else{
+      this.service.cppAddComment(this.cpp_comments).subscribe(); 
+      alert("Comment Added");
+    }
   }
   cppShowComments(){
     this.service.cppShowComments().subscribe((result)=>{this.allCpp_comments=result;});

@@ -19,8 +19,11 @@
 </html> -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 <div class="bg-img">
-  <img class="logo" src="assets\images\logo2.jpg"/>
-    <img class="sign_pic" src="assets\images\spic.jpg"/>
+  <!-- <div class="container"> -->
+    <a routerLink="/mainpage"><img class="b_btn" src="assets\images\b_nav.png"/></a>
+  <!-- </div> -->
+  <!-- <img class="logo" src="assets\images\logo2.jpg"/> -->
+    <!-- <img class="sign_pic" src="assets\images\spic.jpg"/> -->
   <div class="container" style="width:500px">
     <!-- <form method="post" action="/addname"> -->
     <form #registerForm="ngForm" (ngSubmit)="signUp(registerForm.value)">

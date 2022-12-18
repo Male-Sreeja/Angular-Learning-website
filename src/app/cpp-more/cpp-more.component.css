@@ -166,3 +166,11 @@
   width:400px;
 
 }
+.b_btn {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  width:20px;
+  height: 20px;
+  border: 2px solid #555;
+}

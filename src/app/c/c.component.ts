@@ -25,7 +25,12 @@ export class CComponent implements OnInit {
     this.c_comments.comment=cForm.comment;
     // console.log(this.comments.email);
     console.log(this.c_comments.comment);
-    this.service.cAddComment(this.c_comments).subscribe();
+    if(Object.keys(this.c_comments.comment).length===0){
+      alert("Type Text!");
+    }else{
+      this.service.cAddComment(this.c_comments).subscribe();
+      alert("Comment Added");
+    }
   }
   cShowComments(){
     this.service.cShowComments().subscribe((result)=>{this.allC_comments=result;});

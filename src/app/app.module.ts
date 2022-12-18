@@ -34,7 +34,18 @@ import { Lr2Component } from './lr2/lr2.component';
 import { CodingComponent } from './coding/coding.component';
 import { QuizComponent } from './quiz/quiz.component';
 import { DiscussComponent } from './discuss/discuss.component';
-
+import { ForgetPwdComponent } from './forget-pwd/forget-pwd.component';
+import { ChangePwdComponent } from './change-pwd/change-pwd.component';
+import { AddiDetailsComponent } from './addi-details/addi-details.component';
+import { JavaComponent } from './java/java.component';
+import { JavaIntroComponent } from './java-intro/java-intro.component';
+import { JavaLoopsComponent } from './java-loops/java-loops.component';
+import { HtmlComponent } from './html/html.component';
+import { HtmlIntroComponent } from './html-intro/html-intro.component';
+import { HtmlEleComponent } from './html-ele/html-ele.component';
+import { HtmlMoreComponent } from './html-more/html-more.component';
+import { ChangeBgDirective } from './change-bg.directive';
+import { WelcomeQuizComponent } from './welcome-quiz/welcome-quiz.component';
 
 
 
@@ -68,7 +79,19 @@ import { DiscussComponent } from './discuss/discuss.component';
     Lr2Component,
     CodingComponent,
     QuizComponent,
-    DiscussComponent
+    DiscussComponent,
+    ForgetPwdComponent,
+    ChangePwdComponent,
+    AddiDetailsComponent,
+    JavaComponent,
+    JavaIntroComponent,
+    JavaLoopsComponent,
+    HtmlComponent,
+    HtmlIntroComponent,
+    HtmlEleComponent,
+    HtmlMoreComponent,
+    ChangeBgDirective,
+    WelcomeQuizComponent
   ],
   imports: [
     BrowserModule,

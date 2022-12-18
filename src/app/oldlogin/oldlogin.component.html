@@ -53,8 +53,9 @@ Password : <input type = "password" [(ngModel)] = "password"/> <br/> -->
  </button>  -->
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
  <div class="bg-img">
-    <img class="logo" src="assets\images\logo2.jpg"/>
-    <img class="studypic" src="assets\images\studypic.jpg"/>
+    <!-- <img class="logo" src="assets\images\logo2.jpg"/> -->
+    <!-- <img class="studypic" src="assets\images\studypic.jpg"/> -->
+    <a routerLink="/mainpage"><img class="b_btn" src="assets\images\b_nav.png"/></a>
     <form #loginForm="ngForm" (ngSubmit)="loginSubmit(loginForm.value)" class="container">
       <h1>Login</h1>
   
@@ -67,6 +68,7 @@ Password : <input type = "password" [(ngModel)] = "password"/> <br/> -->
       <button type="submit" class="btn">Login</button><br>
       <!-- <button (click)='newLogin()'> New User? </button> -->
       <!-- <router-outlet></router-outlet> -->
-      <a routerLink="/mainpage"><-Back</a>
+      <!-- <a routerLink="/mainpage" class="back">Back</a> -->
+      <a routerLink="/forget_pwd" class="f_pwd">Forget Password?</a>
     </form>
   </div>

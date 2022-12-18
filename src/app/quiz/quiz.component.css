@@ -1,7 +1,6 @@
-.navbar {
+/* .navbar {
   overflow: hidden;
-  background-color: #333;
-  width: 1150px;
+  background-color: #2F4F4f;
 }
 
 .navbar a {
@@ -61,6 +60,14 @@
   float:right;
   background-color: rgb(170, 12, 12);
 }
+.b_btn {
+  position: absolute;
+  top: 55px;
+  left: 10px;
+  width:30px;
+  height: 30px;
+  border: 2px solid #555;
+}
 fieldset {
 	border: 0;
 	margin: 2rem 0;
@@ -78,38 +85,113 @@ fieldset legend {
     padding: 0.75rem 1.25rem;
 	 margin: 0.25rem 0;
 }
-
-/* Hide Radio Buttons and Submit Button */
 input[type="radio"], button {
   display: none;
 }
 
-/* Any correct answer on any answered question, highlight in light green */
 :valid .answer__item--is-correct { background-color: rgba(89, 252, 95, 0.6) }
 
-/* Show any extra explanatory text */
+
 .answer__reveal-text { display: none; }
 :valid .answer__reveal-text { display: block }
 
-/* Any chosen answer, highlight in red */
+
 :checked + .answer__item { color: #ffffff; background-color: #c70000 }
 
-/* Any correctly chosen answer, highlight in bright green */
+
 :checked + .answer__item--is-correct { background-color: #3db540; }
 
-/* Show the icon for the selected answer */
+
 :checked + .answer__item .answer__icon { display: inline-block }
 
 
-/* prevent chosing another answer once chosen */
+
 :valid { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none }
 :valid + .answer__item { pointer-events: none }
 
-/* keep track of score */
+
 form { counter-reset: quiz-score }
 :checked + .answer__item--is-correct { counter-increment: quiz-score }
 .score:after { content: counter(quiz-score) "/" attr(data-question-count) }
 
-/* show score once quiz has been completed */
+
 .message { display: none; }
-form:valid .message { display: block }
+form:valid .message { display: block } */
+.card {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  outline: #04AA6D;
+  border: #04AA6D;
+}
+
+li {
+  list-style-type:none;
+  cursor: pointer;
+  margin: 10px 5;
+  background-color: #f1f1f1;
+  padding: 2px;
+  flex: 50%;
+}
+li .card:hover {
+  border: 1px solid rgb(240, 240, 247);
+  /* opacity: 1; */
+  filter:brightness(120%) saturate(120%);
+}
+
+ol {
+  padding: 0;
+  border:1px solid #000;
+}
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* button:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+} */
+body , html {
+  height : 100%;
+}
+body  {
+  background-image: url("src\assets\images\wp_n5.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.button5 {
+  border-radius: 50%;
+}
+.btn{
+  cursor: pointer;
+}
+#main {
+  width: 600px;
+  height: 45px;
+  text-align: center;
+  border: 1px solid #c3c3c3;
+  display: flex;
+}
+
+#main div {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 200px;
+}
+.b_btn {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  width:30px;
+  height: 30px;
+  border: 2px solid #555;
+}

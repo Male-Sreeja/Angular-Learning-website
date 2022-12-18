@@ -1,0 +1,22 @@
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+    <br><br>
+<div class="container">
+    <a routerLink="/interview"><img class="b_btn" src="assets\images\b_nav.png"/></a>
+  </div>
+  
+<div class="container bg-light py-5" >
+    <h1 class="display-5 fw-bold">Quiz!</h1>
+    <p class="col-md-8 fs-4">This quiz will contains total 10 questions. Each Question holds 10 Points</p>
+    <h4>Rules:</h4>
+        1.Correct answer gives you 10 points<br>
+        2.No Negative marking for wrong answers<br>
+        3.You will have 60 sec to answer each question<br>
+        4.Refereshing the page will reset the Quiz<br>
+    <h1 style="font-family: cursive;text-align:center">All the best!!</h1>
+    <button class="btn btn-primary btn-lg" style="cursor: pointer;" routerLink="/quiz" (click)="startQuiz()">Start the Quiz!!</button>
+    <br><br><br><br><br><br><br><br>
+    
+</div>
+</body>

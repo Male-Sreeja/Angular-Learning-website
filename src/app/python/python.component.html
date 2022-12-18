@@ -1,37 +1,41 @@
 <!-- <head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 </head> -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
 <div class="navbar">
-    <a routerLink="/homepage">Dashboard</a>
-    <div class="dropdown">
-      <button class="dropbtn">Courses 
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a routerLink='/programLang'>Programming</a>
+  <a routerLink="/homepage">Dashboard</a>
+  <!-- <a routerLink="/profile">Profile</a> -->
+  <div class="dropdown">
+    <button class="dropbtn">Courses 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a routerLink='/programLang'>Programming</a>
       <a routerLink="/interview">Interview preparation</a>
       <a routerLink="/mcq">Aptitude</a>
-      </div>
-    </div> 
-    <div class="logout">
-      <a routerLink="/mainpage">Logout</a>
     </div>
-  </div>
-
+  </div> 
+  <div class='logout'>
+  <a routerLink="/mainpage">Logout</a>
+</div>
+</div>
+<div class="container">
+  <a routerLink="/programLang"><img class="b_btn" src="assets\images\b_nav.png"/></a>
+</div>
   <h1>&nbsp;<b><u>Learn Python</u></b></h1>
   <p>&emsp;Python is a simple, general purpose, high level, and object-oriented programming .</p><p>&emsp;It can be used for everything from machine learning to building and testing websites.</p> <p>&emsp;Useful for both developers and non-developers.</p>
 
-  <img  class="image4" src="\assets\images\pythonpic.jpg" style = "width:300px"/>
+  <img  class="image4" src="\assets\images\pythonpic.jpeg" style = "width:300px"/>
   <!--<ol>
     <h2><li><a routerLink = "/homepage">Introduction</a></li></h2>
     <h2><li><a routerLink = "/homepage">Conditional Statements, Loops & Functions</a></li></h2>
     <h2><li><a routerLink = "/homepage">More Topics</a></li></h2>
 </ol>-->
 <br>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
-<div class="w3-card-2 w3-margin" style="max-width:400px;">
+
+<!-- <div class="w3-card-2 w3-margin" style="max-width:400px;">
   <header class="w3-container w3-light-blue w3-padding-16">
     <h3><b>Get Started</b></h3>
   </header>
@@ -39,10 +43,27 @@
     <a routerLink= "/pyIntro"><li class="w3-light-grey w3-padding-16"><b>Introduction</b><span style="cursor:pointer;" class="w3-right w3-margin-right"></span></li></a>
     <a routerLink = "/pyLoops"><li class="w3-padding-16"><b>Conditional Statements,Loops & Functions</b><span style="cursor:pointer;" class="w3-right w3-margin-right"></span></li></a>
     <a routerLink = "/pyTopics"><li class="w3-light-grey w3-padding-16"><b>More Topics</b><span style="cursor:pointer;" class="w3-right w3-margin-right"></span></li></a>
-    <!-- <a routerLink = "/homepage"><li class="w3-padding-16"><b>Mock Interview</b><span style="cursor:pointer;" class="w3-right w3-margin-right"></span></li></a> -->
+    
   </ul>
-</div>
+</div> -->
 <br>
+<div class="w3-container" style="width: 300px;">  
+  <div class="w3-bar-block w3-light-grey">
+    <!-- <pdf-viewer [src]="\assets\documents\python_f.pdf#page=2"></pdf-viewer> -->
+    <a href="\assets\documents\python_f.pdf#page=2" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Introduction</a>
+    <a href="\assets\documents\python_f.pdf#page=4" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Python Syntax</a>
+    <a href="\assets\documents\python_f.pdf#page=5" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Python Variables</a>
+    <a href="\assets\documents\python_f.pdf#page=7" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Python Data types</a>
+    <a href="\assets\documents\python_f.pdf#page=8" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Strings,List,tuples</a>
+    <a href="\assets\documents\python_f.pdf#page=9" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Dictionary</a>
+    <a href="\assets\documents\python_f.pdf#page=10" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Conditional Statements</a>
+    <a href="\assets\documents\python_f.pdf#page=11" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Python Loops</a>
+    <a href="\assets\documents\python_f.pdf#page=12" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Python Functions</a>
+    <a href="\assets\documents\python_f.pdf#page=13" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Python Arrays</a>
+    <a href="\assets\documents\python_f.pdf#page=14" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Python Classes/Objects</a>
+    <a href="\assets\documents\python_f.pdf#page=16" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Python Inheritance</a>
+  </div>
+</div>
 <form #discussionForm="ngForm" (ngSubmit)="addComment(discussionForm.value)">
   &nbsp;&nbsp;<label><b>Comments:</b></label><br>
   <!-- <input type="text" ngModel name="comment" #comment=ngModel placeholder="Add your Comment here" class="form-control"> -->

@@ -1,7 +1,7 @@
 .navbar {
     overflow: hidden;
-    background-color: #333;
-    width:1150px;
+    background-color: #2F4F4f;
+    /* width:1150px; */
   }
   .navbar a {
     float: left;
@@ -191,4 +191,12 @@ h1 {
 .logout{
     float:right;
     background-color: rgb(170, 12, 12);
+  }
+  .b_btn {
+    position: absolute;
+    top: 55px;
+    left: 10px;
+    width:30px;
+    height: 30px;
+    border: 2px solid #555;
   }

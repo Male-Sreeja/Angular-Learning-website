@@ -1,0 +1,183 @@
+{
+    "questions": [{
+            "questionText": "1.In Unix, which system call creates the new process?",
+            "options": [{
+                    "text": "create"
+                },
+                {
+                    "text": "fork",
+                    "correct": true
+                },
+                {
+                    "text": "new"
+                },
+                {
+                    "text": "None of the mentioned"
+                }
+            ],
+            "explanation": "TS uses a colon (:) to separate the property name from the property type"
+        },
+        {
+            "questionText": "2.Which of the following is not a core data type in Python programming?",
+            "options": [{
+                    "text": "Tuples"
+                },
+                {
+                    "text": "Lists"
+                },
+                {
+                    "text": "Class",
+                    "correct": true
+                },
+                {
+                    "text": "Dictionary"
+                }
+            ],
+            "explanation": "enum is not used as a type in TypeScript"
+        },
+        {
+            "questionText": "3.Which of the following is a type of polymorphism in Java Programming?",
+            "options": [{
+                    "text": "Multiple polymorphism"
+                },
+                {
+                    "text": "Compile time polymorphism",
+                    "correct": true
+                },
+                {
+                    "text": "Multilevel polymorphism"
+                },
+                {
+                    "text": "Execution time polymorphism"
+                }
+            ],
+            "explanation": "interfaces are typically used to list the properties and methods for an object"
+        },
+        {
+            "questionText": "4.The processes that are residing in main memory and are ready and waiting to execute are kept on a list called _____________",
+            "options": [{
+                    "text": "job queue",
+                    "correct": true
+                },
+                {
+                    "text": "ready queue"
+                },
+                {
+                    "text": "execution queue"
+                },
+                {
+                    "text": "process queue"
+                }
+            ],
+            "explanation": "number[] is another way of writing Array<number> in TypeScript"
+        },
+        {
+            "questionText": "5.Which network topology requires a central controller or hub?",
+            "options": [{
+                    "text": "Star",
+                    "correct": true
+                },
+                {
+                    "text": "Mesh"
+                },
+                {
+                    "text": "Ring"
+                },
+                {
+                    "text": "Bus"
+                }
+            ],
+            "explanation": "a constructor is used by a class to take in parameters"
+        },
+        {
+            "questionText": "6.What is the full form of DBMS?",
+            "options": [{
+                    "text": "Data of Binary Management System"
+                },
+                {
+                    "text": "Database Management System",
+                    "correct": true
+                },
+                {
+                    "text": "Database Management Service"
+                },
+                {
+                    "text": "Data Backup Management System"
+                }
+            ],
+            "explanation": "async is not used as an access modifier type in TypeScript"
+        },
+        {
+            "questionText": "7.Which of the following are transport layer protocols used in networking?",
+            "options": [{
+                    "text": "TCP and FTP"
+                },
+                {
+                    "text": "UDP and HTTP"
+                },
+                {
+                    "text": "TCP and UDP",
+                    "correct": true
+                },
+                {
+                    "text": "HTTP and FTP"
+                }
+            ],
+            "explanation": "the export keyword allows for the information to be transmitted between files"
+        },
+        {
+            "questionText": "8.Which of these is a process of extracting/removing the state of an object from a stream?",
+            "options": [{
+                    "text": "Serialization"
+                },
+                {
+                    "text": "Externalization"
+                },
+                {
+                    "text": "File Filtering"
+                },
+                {
+                    "text": "Deserialization",
+                    "correct": true
+                }
+            ],
+            "explanation": "filter is a method used to conditionally create a new array"
+        },
+        {
+            "questionText": "9.What is it called if an object has its own lifecycle and there is no owner?",
+            "options": [{
+                    "text": "Aggregation"
+                },
+                {
+                    "text": "Composition"
+                },
+                {
+                    "text": "Encapsulation"
+                },
+                {
+                    "text": "Association",
+                    "correct": true
+                }
+            ],
+            "explanation": "this.propertyName is the way to access a specific property within a class"
+        },
+        {
+            "questionText": "10.Which of the following is the multiple access protocol for channel access control?",
+            "options": [{
+                    "text": "CSMA/CD"
+                },
+                {
+                    "text": "CSMA/CA"
+                },
+                {
+                    "text": "Both CSMA/CD $ CSMA/CA",
+                    "correct": true
+                },
+                {
+                    "text": "HDLC"
+                }
+            ],
+            "explanation": "this.propertyName is the way to access a specific property within a class"
+        }
+    ]
+}

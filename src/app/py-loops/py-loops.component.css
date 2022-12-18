@@ -1,6 +1,6 @@
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #2F4F4f;
   }
   
   .navbar a {
@@ -97,4 +97,12 @@
   position: relative;
   /* top:2800px; */
   padding-left: 100px;
+}
+.b_btn {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  width:20px;
+  height: 20px;
+  border: 2px solid #555;
 }

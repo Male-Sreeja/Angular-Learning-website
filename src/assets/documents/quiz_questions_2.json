@@ -1,0 +1,184 @@
+{
+    "questions": [{
+            "questionText": "1.Which transmission media provides the highest transmission speed in a network?",
+            "options": [{
+                    "text": "coaxial cable"
+                },
+                {
+                    "text": "twisted pair cable"
+                },
+                {
+                    "text": "optical fiber",
+                    "correct": true
+                },
+                {
+                    "text": "electrical cable"
+                }
+            ],
+            "explanation": "TS uses a colon (:) to separate the property name from the property type"
+        },
+        {
+            "questionText": "2.Which one of the following is the deadlock avoidance algorithm?",
+            "options": [{
+                    "text": "banker's algorithm",
+                    "correct": true
+                },
+                {
+                    "text": "round-robin algorithm"
+                },
+                {
+                    "text": "elevator algorithm"
+                },
+                {
+                    "text": "karn's algorithm"
+                    
+                }
+            ],
+            "explanation": "enum is not used as a type in TypeScript"
+        },
+        {
+            "questionText": "3.Python supports the creation of anonymous functions at runtime, using a construct called __________",
+            "options": [{
+                    "text": "pi"
+                },
+                {
+                    "text": "anonymous"
+                },
+                {
+                    "text": "lambda",
+                    "correct": true
+                },
+                {
+                    "text": "None of the mentioned"
+                }
+            ],
+            "explanation": "interfaces are typically used to list the properties and methods for an object"
+        },
+        {
+            "questionText": " 4.Which of these class is superclass of String and StringBuffer class?",
+            "options": [{
+                    "text": "java.util"
+                },
+                {
+                    "text": "java.lang",
+                    "correct": true
+                },
+                {
+                    "text": "ArrayList"
+                },
+                {
+                    "text": "None of the mentioned"
+                }
+            ],
+            "explanation": "number[] is another way of writing Array<number> in TypeScript"
+        },
+        {
+            "questionText": "5.The size of an IP address in IPv6 is _________",
+            "options": [{
+                    "text": "4 bytes"
+                },
+                {
+                    "text": "128 bits",
+                    "correct": true
+                },
+                {
+                    "text": "8 bytes"
+                },
+                {
+                    "text": "100 bits"
+                }
+            ],
+            "explanation": "a constructor is used by a class to take in parameters"
+        },
+        {
+            "questionText": "6.The ability to query data, as well as insert, delete, and alter tuples, is offered by ____________",
+            "options": [{
+                    "text": "TCL (Transaction Control Language)"
+                },
+                {
+                    "text": "DCL (Data Control Language)"
+                },
+                {
+                    "text": "DDL (Data Definition Langauge)"
+                },
+                {
+                    "text": "DML (Data Manipulation Langauge)",
+                    "correct": true
+                }
+            ],
+            "explanation": "async is not used as an access modifier type in TypeScript"
+        },
+        {
+            "questionText": "7.Who is the father of C language?  ",
+            "options": [{
+                    "text": "Steve Jobs"
+                },
+                {
+                    "text": "James Gosling"
+                },
+                {
+                    "text": "Dennis Ritchie",
+                    "correct": true
+                },
+                {
+                    "text": "Rasmus Lerdorf"
+                }
+            ],
+            "explanation": "the export keyword allows for the information to be transmitted between files"
+        },
+        {
+            "questionText": "8.Which of the following is a valid declaration of an object of class Box?",
+            "options": [{
+                    "text": "Box obj=new Box();",
+                    "correct": true
+                },
+                {
+                    "text": "Box obj=new Box;"
+                },
+                {
+                    "text": "obj=new Box();"
+                },
+                {
+                    "text": "new Box obj;"
+                }
+            ],
+            "explanation": "filter is a method used to conditionally create a new array"
+        },
+        {
+            "questionText": "9.Which type of Programming does Python support?",
+            "options": [{
+                    "text": "object-oriented programming"
+                },
+                {
+                    "text": "structured programming"
+                },
+                {
+                    "text": "functional programming"
+                },
+                {
+                    "text": "All of the mentioned",
+                    "correct": true
+                }
+            ],
+            "explanation": "this.propertyName is the way to access a specific property within a class"
+        },
+        {
+            "questionText": "10.Which scheduling algorithm allocates the CPU first to the process that requests the CPU first?",
+            "options": [{
+                    "text": "first-come, first-served scheduling",
+                    "correct": true
+                },
+                {
+                    "text": "shortest job scheduling"
+                },
+                {
+                    "text": "priority scheduling"
+                },
+                {
+                    "text": " None of the mentioned"
+                }
+            ],
+            "explanation": "this.propertyName is the way to access a specific property within a class"
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #2F4F4f;
   }
   
   .navbar a {
@@ -56,58 +56,55 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  .image1 {
+  .b_btn {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width:20px;
+    height: 20px;
+    border: 2px solid #555;
+  }
+  .image {
     /* position: relative;
     top: 0;
     left: 20px; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width:1133px;
+    width:1150px;
     height: 495px;
     position: relative;
   }
+  .image1 {
+    position: absolute;
+    top: 140px;
+    left: 70px;
+    /* border: 5px solid #555; */
+  }
   .image2 {
     position: absolute;
-    top: 220px;
-    left: 70px;
-    border: 5px solid #555;
+    top:232px;
+    left: 450px;
+    /* border: 5px solid #555; */
   }
-  .python-pos {
-    position: absolute;
-    bottom: 100px;
-    left: 180px;
-    color: rgb(0, 10, 9);
-    font-size: 5mm;
-    font: bold;
-  }
+
   .image3 {
     position: absolute;
-    top:212px;
-    left: 450px;
-    border: 5px solid #555;
-  }
-  .cpp-pos {
-    position: absolute;
-    bottom: 225px;
-    left: 560px;
-    color: rgb(0, 8, 8);
-    font-size: 5mm;
-    font: bold;
+    top:140px;
+    right: 70px;
+    /* border: 5px solid #555; */
   }
   .image4 {
     position: absolute;
-    top:210px;
-    right: 70px;
-    border: 5px solid #555;
+    top:330px;
+    left: 70px;
+    /* border: 5px solid #555; */
   }
-  .c-pos {
+  .image5 {
     position: absolute;
-    bottom: 293px;
-    left: 970px;
-    color: rgb(0, 8, 8);
-    font-size: 5mm;
-    font: bold;
+    top:330px;
+    right: 70px;
+    /* border: 5px solid #555; */
   }
   .logout{
     float:right;
@@ -116,15 +113,23 @@
   .logout:hover{
     background-color:red;
   }
+  .container:hover .image1 {
+    opacity: 1;
+    box-shadow: 0 6px 8px 0 #2F4F4f, 0 6px 20px 0 #2F4F4f;
+  }
   .container:hover .image2 {
     opacity: 1;
-    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 6px 8px 0 #2F4F4f, 0 6px 20px 0 #2F4F4f;
   }
   .container:hover .image3 {
     opacity: 1;
-    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 6px 8px 0 #2F4F4f, 0 6px 20px 0 #2F4F4f;
   }
   .container:hover .image4 {
     opacity: 1;
-    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 6px 8px 0 #2F4F4f, 0 6px 20px 0 #2F4F4f;
+  }
+  .container:hover .image5 {
+    opacity: 1;
+    box-shadow: 0 6px 8px 0 #2F4F4f, 0 6px 20px 0 #2F4F4f;
   }

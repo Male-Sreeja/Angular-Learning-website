@@ -1,0 +1,71 @@
+<!-- <head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+</head> -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<div class="navbar">
+    <a routerLink="/homepage">Dashboard</a>
+    <!-- <a routerLink="/profile">Profile</a> -->
+    <div class="dropdown">
+      <button class="dropbtn">Courses 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a routerLink='/programLang'>Programming</a>
+        <a routerLink="/interview">Interview preparation</a>
+        <a routerLink="/mcq">Aptitude</a>
+      </div>
+    </div> 
+    <div class='logout'>
+    <a routerLink="/mainpage">Logout</a>
+  </div>
+  </div>
+  <div class="container">
+    <a routerLink="/programLang"><img class="b_btn" src="assets\images\b_nav.png"/></a>
+  </div>
+    <h1>&nbsp;<b><u>Learn HTML</u></b></h1>
+    <p>&emsp;HTML is the standard markup language for Web pages.
+
+        With HTML you can create your own Website.</p>
+  
+    <!-- <img  class="image4" src="\assets\images\pythonpic.jpg" style = "width:300px"/> -->
+    <!--<ol>
+      <h2><li><a routerLink = "/homepage">Introduction</a></li></h2>
+      <h2><li><a routerLink = "/homepage">Conditional Statements, Loops & Functions</a></li></h2>
+      <h2><li><a routerLink = "/homepage">More Topics</a></li></h2>
+  </ol>-->
+  <br>
+ 
+    <div class="w3-container" style="width: 300px;">  
+      <div class="w3-bar-block w3-light-grey">
+        <a href="\assets\documents\html.pdf#page=2" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Introduction</a>
+        <a href="\assets\documents\html.pdf#page=4" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">HTML Attributes</a>
+        <a href="\assets\documents\html.pdf#page=8" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">HTML Elements</a>
+        <a href="\assets\documents\html.pdf#page=11" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">HTML Headings</a>
+        <a href="\assets\documents\html.pdf#page=12" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">HTML Styles</a>
+        <a href="\assets\documents\html.pdf#page=15" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">HTML CSS</a>
+        <a href="\assets\documents\html.pdf#page=16" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">Internal CSS</a>
+        <a href="\assets\documents\html.pdf#page=17" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">External CSS</a>
+        <a href="\assets\documents\html.pdf#page=18" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">HTML Links</a>
+        <a href="\assets\documents\html.pdf#page=19" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">HTML Buttons</a>
+        <a href="\assets\documents\html.pdf#page=21" target="_blank" title="LearningVerse" class="w3-bar-item w3-button w3-hover-blue">HTML Tables</a>
+        
+      </div>
+    </div>
+  <br>
+  <form #discussionForm="ngForm" (ngSubmit)="htAddComment(discussionForm.value)">
+    &nbsp;&nbsp;<label><b>Comments:</b></label><br>
+    &nbsp;&nbsp;<textarea ngModel name="comment" #comment=ngModel placeholder="Add your Comment here" class="form-control" required minlength="10"></textarea><br>
+    &nbsp;&nbsp;&nbsp;<button type="submit" class="btn" >Add</button><br>
+  </form>
+  <br>
+  &nbsp;&nbsp;<button (click)="htShowComments()" class="btn">Show Comments</button>
+  <br><br>
+  <div *ngFor="let com of allh_comments">
+    &nbsp;&nbsp;<b>{{com.email}}</b>
+    &nbsp;&nbsp;<div class="container">
+      &nbsp;&nbsp; {{com.comment}}
+    </div>
+  </div>
+  

@@ -1,6 +1,6 @@
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #2F4F4f;
   }
   
   .navbar a {
@@ -56,6 +56,11 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  body  {
+    background-image: url("src\assets\images\wp_n5.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
   .logout{
     float:right;
     background-color: rgb(170, 12, 12);
@@ -83,4 +88,21 @@
       font-size: 16px;
       cursor: pointer;
     }
- 
+    .b_btn {
+      position: absolute;
+      top: 60px;
+      left: 10px;
+      width:30px;
+      height: 30px;
+      border: 2px solid #555;
+    }
+    .arrow {
+      border: solid black;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 3px;
+    }
+    .down {
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+    }

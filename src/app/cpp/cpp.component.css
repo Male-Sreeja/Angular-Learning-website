@@ -1,6 +1,6 @@
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #2F4F4f;
   }
   
   .navbar a {
@@ -34,6 +34,7 @@
   .dropdown-content {
     display: none;
     position: absolute;
+    /* top:50px; */
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -56,12 +57,31 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  .b_nav {
+    position: relative;
+    height: 50px;
+    left: -105px;
+    width: 35px;
+  }
+  .b_btn {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width:30px;
+    height: 30px;
+    border: 2px solid #555;
+  }
   .logout{
     float:right;
     background-color: rgb(170, 12, 12);
   }
   body , html {
     height : 100%;
+  }
+  body  {
+    background-image: url("src\assets\images\wp_n5.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
   .image4 {
       position:absolute;
@@ -86,4 +106,14 @@
       display: inline-block;
       font-size: 16px;
       cursor: pointer;
+    }
+    .arrow {
+      border: solid black;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 3px;
+    }
+    .down {
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
     }
